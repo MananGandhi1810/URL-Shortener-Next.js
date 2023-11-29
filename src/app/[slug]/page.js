@@ -22,7 +22,7 @@ export default function Go({ params }) {
       } catch (error) {
         console.log(slug);
         
-        router.push("https://naitiklodha.tech");
+        router.push("https://manangandhi.tech");
         return <h1 className="font-bold text-center">Invalid slug redirecting you to portfolio</h1>;
       }
     }
